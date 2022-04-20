@@ -40,7 +40,8 @@ button
     border-radius: 0.3rem;
     border: #C6DAF1 0.15rem solid;
     background-color: transparent;
-    box-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,0.6);  
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,0.6);
+    font-size: 0.8rem;
 }
 
 button:hover
@@ -227,7 +228,7 @@ button a:hover
     }
     .login
     {
-        width: 70vw;
+        width: 95vw;
     }
     .login input
     {
@@ -242,6 +243,20 @@ button a:hover
     .nav_link
     {
         margin: 1vh;
-        padding-bottom: 0;
+        padding: 0.2rem 1rem;
+    }
+    .login input
+    {
+        width: 70vw;
+    }
+
+    .submit button
+    {
+        width: 40%;
+    }
+
+    #signup_btn
+    {
+        width: 70%;
     }
 }
